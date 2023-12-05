@@ -107,6 +107,14 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src="https://foto-zeljko-dev.b-cdn.net/A9N03873.JPG"
+          alt="Next.js Logo"
+          width={1020}
+          height={680}
+          priority
+        />
       </div>
     </main>
   )
